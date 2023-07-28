@@ -1,0 +1,59 @@
+/* home page css */
+main {
+  text-align: center;
+}
+#Upload-btn {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: #09a7f7;
+  color: white;
+  font-size: 20px;
+}
+#FileContainer {
+  width: 90%;
+  height: auto;
+}
+#heading {
+  background-color: rgb(151, 206, 43);
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+#uploadedFileHeading {
+  height: 40px;
+  margin-top: 50px;
+  background-color: #37495f;
+  color: #fff;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+thead {
+  background-color: #bfbbaf;
+  font-size: 20px;
+}
+tbody {
+  font-size: 20px;
+}
+th,td {
+  text-align: left;
+  padding: 10px;
+}
+td {
+  border-bottom: 1px solid grey;
+}
+
+.fa-up-right-from-square {
+  color: rgb(0, 255, 242);
+  padding-left: 10px;
+}
+.fa-trash-can {
+  color: rgb(53, 12, 12);
+  padding-left: 10px;
+}
+

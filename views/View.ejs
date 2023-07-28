@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="/css/view.css" />
+
+<center class="view-container">
+  <p id="file-name">File Name: <%= FileName%></p>
+  <!-- Search-->
+  <div id="search-container">
+    <form>
+      <input id="inputText" type="text" placeholder="Search keyword" />
+      <button id="search-btn" type="button">Search</button>
+    </form>
+    <div>
+      <p>Total Rows: <%= length %></p>
+    </div>
+  </div>
+
+  <!-- Table data-->
+  <div class="result-container">
+    <table>
+      <thead>
+        <tr>
+          <% for(let i of head) { %>
+          <th><%= i %></th>
+          <% } %>
+        </tr>
+      </thead>
+      <tbody>
+        <% for(let row of data) { %>
+        <tr>
+          <% for(let i of Object.keys(row)) {%>
+          <td><%= row[i]%></td>
+          <% } %>
+        </tr>
+        <% } %>
+      </tbody>
+    </table>
+  </div>
+</center>

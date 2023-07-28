@@ -1,0 +1,58 @@
+/* view page css */
+#file-name {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+input {
+  font-size: 20px;
+}
+#search-btn {
+  width: 130px;
+  height: 30px;
+  background-color: rgb(46, 78, 240);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#search-btn:hover {
+  background-color: #23b5d3;
+}
+p {
+  font-size: 20px;
+}
+
+/* Design for table */
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid black;
+}
+thead,
+tbody {
+  border: 1px solid black;
+}
+.result-container {
+  width: 90%;
+  background-color: yellow;
+}
+thead {
+  background-color: #23cd17;
+  color: #fff;
+}
+tbody {
+  background-color: rgb(17, 220, 220);
+}
+.highlight {
+  background-color: #ead637;
+}
+
