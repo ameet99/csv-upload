@@ -1,6 +1,6 @@
 const allRow = document.getElementsByTagName("tr");
 const search = document.getElementById("search-btn");
-search.addEventListener("click", searchDataInFile);
+search?.addEventListener("click", searchDataInFile);
 
 function searchDataInFile() {
   const input = document.getElementById("inputText").value.toLowerCase();
