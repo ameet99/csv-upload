@@ -5,7 +5,7 @@ const app = express();
 require('./config/mongoose');
 
 // port number
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 // parser added
 app.use(express.urlencoded({ extended: true }));
