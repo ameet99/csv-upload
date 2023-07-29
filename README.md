@@ -14,6 +14,10 @@ The main purpose of this application is that it will parse the CSV data
 and display in tabular form, we can also search any particular keyword from the file.
 This application is build by Amit Bhavsar
 
+# Git Repo
+https://github.com/ameet99/csv-upload
+branch name: master
+
 # We are using following libarary
 csv-parser
 ejs
